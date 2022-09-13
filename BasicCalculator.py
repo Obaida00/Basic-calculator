@@ -3,7 +3,7 @@ print("Hello and welcome to the basic calculater by OBAIDA ALMELHEM")
 num1 = float(input('Enter first number\n'))
 num2 = float(input('Enter second number\n'))
 
-def chose_oper():
+def choose_oper():
     oper = input("select an operator:\n [ x , / , + , - ]\n")
     print("Result: ", end='')
     if oper == 'x':
@@ -16,4 +16,4 @@ def chose_oper():
         print(num1 - num2)
     else:
         print('INVALID OPERATOR!!\n Please Try Again..')
-        chose_oper()
+        choose_oper()
